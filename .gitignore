@@ -1,0 +1,14 @@
+# Obsidian UI state (essential to ignore to avoid merge conflicts)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# (Optional) Ignore plugins if you prefer to reinstall them manually
+.obsidian/plugins/*
+.obsidian/community-plugins.json
+.obsidian/core-plugins.json
+
+# Obsidian internal trash
+.trash/
+
+# OS-specific files
+.DS_Store
