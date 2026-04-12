@@ -134,6 +134,39 @@ Provide concise report:
 - All subsequent processing steps must align with these instructions
 - Agents are expected to autonomously apply these rules without user intervention
 
+## Link Processing Protocol
+When encountering URLs in content:
+1. Automatically execute `/run curl <URL>` to retrieve page metadata and content
+2. Classify page type:
+   - Technical Article (API docs, framework guides, tutorials)
+   - Code Snippet (GitHub Gist/Repository, Stack Overflow posts)
+   - Forum Discussion (Habr, Reddit, specialized forums)
+   - Case Study (implementation examples, success stories)
+   - Documentation Reference (official docs, SDK references)
+3. Preserve original material:
+   - Save full response in `raw/` using URL slug as filename
+   - Maintain English version for non-Russian pages
+4. Extract knowledge:
+   - Core thesis, technical details, practical applications
+   - Limitations, error cases, security considerations
+   - Links to related topics in existing knowledge base
+5. Integrate into wiki:
+   - Create/update `wiki/frameworks/[framework]/[slug]/index.md`
+   - Create/update `wiki/tools/[tool]/[slug]/index.md`
+   - Maintain English technical terms where precision requires it
+   - Add Russian explanations/context where beneficial
+6. Update knowledge graph:
+   - Establish [[wikilinks]] between new content and existing topics
+   - Add metadata tags (technology, category, relevance)
+   - Preserve citation of original source URL in footnote format
+7. Generate processing report:
+   - Document classification decision
+   - Extract key insights in Russian
+   - Note any translation adjustments made
+   - List created/updated wiki pages
+
+Agents automatically perform these steps without user prompts when a URL is detected in incoming material.
+
 ## Maintenance Mode (Automatic Updates)
 Every 2 days, perform full review cycle of:
 - `raw/` (articles, web clips, notes, transcripts, PDFs, prompts, drafts)
