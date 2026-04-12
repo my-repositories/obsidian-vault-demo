@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
+                "file": "raw/_about.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "GitHub SpecKit вайб-кодинг на основе спецификаций"
+              "title": "_about"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
+                "file": "raw/_about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for GitHub SpecKit вайб-кодинг на основе спецификаций"
+              "title": "Backlinks for _about"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
+                "file": "raw/_about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from GitHub SpecKit вайб-кодинг на основе спецификаций"
+              "title": "Outgoing links from _about"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
+                "file": "raw/_about.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GitHub SpecKit вайб-кодинг на основе спецификаций"
+              "title": "Outline of _about"
             }
           }
         ]
@@ -185,6 +185,17 @@
   },
   "active": "b0c41f67c353d1b0",
   "lastOpenFiles": [
+    "Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
+    "archive/Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
+    "archive/Clippings",
+    "archive",
+    "wiki/tools/spec-kit/best-practices.md",
+    "wiki/tools/spec-kit/workflow.md",
+    "wiki/tools/spec-kit/commands.md",
+    "wiki/tools/spec-kit/index.md",
+    "wiki/tools/spec-kit",
+    "wiki/tools",
+    "maintenance-report.md",
     "AGENTS.md.tmp.15236.1776011787642",
     "raw/_about.md",
     "vibe-coding.md",
@@ -196,16 +207,10 @@
     "frameworks",
     "tools/github-speckit.md",
     "wiki/tools/github-speckit",
-    "wiki/tools",
     "tools",
-    "wiki/frameworks/memory-management/beads",
-    "wiki/frameworks/memory-management",
-    "wiki/frameworks",
     "setup/6-true-final-final-final.md",
-    "raw/articles/983498_habr_beads.html",
     "CLAUDE.md",
     "AGENTS.md",
-    "QWEN.md",
-    "Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md"
+    "QWEN.md"
   ]
 }
