@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/ASP.Net MVC vs Blazor чья возьмет.md",
+                "file": "wiki/readME.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ASP.Net MVC vs Blazor чья возьмет"
+              "title": "readME"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/ASP.Net MVC vs Blazor чья возьмет.md",
+                "file": "wiki/readME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ASP.Net MVC vs Blazor чья возьмет"
+              "title": "Backlinks for readME"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clippings/ASP.Net MVC vs Blazor чья возьмет.md",
+                "file": "wiki/readME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ASP.Net MVC vs Blazor чья возьмет"
+              "title": "Outgoing links from readME"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/ASP.Net MVC vs Blazor чья возьмет.md",
+                "file": "wiki/readME.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ASP.Net MVC vs Blazor чья возьмет"
+              "title": "Outline of readME"
             }
           }
         ]
@@ -185,9 +185,21 @@
   },
   "active": "b0c41f67c353d1b0",
   "lastOpenFiles": [
+    "reports/maintenance-2026-04-13.md",
+    "archive/raw/articles/habr-span-memory-performance-708210.md",
+    "archive/Clippings/История CSHARP эволюция версий, .NET, Unity, Blazor, MAUI.md",
+    "archive/Clippings/ASP.Net MVC vs Blazor чья возьмет.md",
+    "archive/Clippings/Strategy Design Pattern.md",
+    "wiki/frameworks/csharp-history/readME.md",
+    "wiki/frameworks/csharp-history",
+    "wiki/frameworks/blazor-vs-mvc/readME.md",
+    "wiki/frameworks/blazor-vs-mvc",
+    "wiki/frameworks",
+    "wiki/patterns/strategy-pattern/readME.md",
+    "wiki/patterns/strategy-pattern",
+    "Clippings/ASP.Net MVC vs Blazor чья возьмет.md",
     "Clippings/История CSHARP эволюция версий, .NET, Unity, Blazor, MAUI.md",
     "Clippings/Strategy Design Pattern.md",
-    "Clippings/ASP.Net MVC vs Blazor чья возьмет.md",
     "archive/raw/articles/habr-algorithm-patterns-interview-1020222.md",
     "reports/processing-2026-04-13-algorithm-patterns-interview.md",
     "wiki/patterns/algorithmic-interview/readME.md",
@@ -208,18 +220,6 @@
     "archive/readME.md",
     "Clippings/readME.md",
     "reports/processing-2026-04-12-beads.md",
-    "reports/maintenance-2026-04-12.md",
-    "maintenance-2026-04-12.md",
-    "processing-2026-04-12-beads.md",
-    "reports",
-    "raw/_about.md",
-    "raw/readME.md",
-    "wiki/tools/spec-kit/readME.md",
-    "readME.md",
-    "wiki/readME.md",
-    "archive/raw/articles",
-    "archive/raw",
-    "wiki/tools/beads",
-    "archive/Clippings"
+    "reports"
   ]
 }
