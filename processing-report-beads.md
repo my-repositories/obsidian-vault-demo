@@ -8,9 +8,9 @@
 ## Что сделано
 - **Сохранён оригинал:** `archive/raw/articles/983498_habr_beads.md`
 - **Созданы wiki-страницы:**
-  - `wiki/tools/beads/index.md` — основная статья о Beads
+  - `wiki/tools/beads/readME.md` — основная статья о Beads
 - **Обновлены существующие страницы:**
-  - `wiki/tools/spec-kit/index.md` — добавлена ссылка на Beads в связанные темы
+  - `wiki/tools/spec-kit/readME.md` — добавлена ссылка на Beads в связанные темы
 - **Материал отнесён к теме:** AI-Assisted Coding Tools / Memory Management
 
 ## Что извлечено

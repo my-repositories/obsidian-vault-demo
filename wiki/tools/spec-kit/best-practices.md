@@ -464,6 +464,6 @@ Issue H001 — не понял.
 
 ## Связанные темы
 
-- [GitHub SpecKit: основная статья](./index.md)
+- [GitHub SpecKit: основная статья](./readME.md)
 - [Команды SpecKit: полный справочник](./commands.md)
 - [Рекомендуемый рабочий процесс](./workflow.md)

@@ -39,7 +39,7 @@ From each material extract:
 Determine:
 - Existing theme affiliation
 - Need for new wiki folder
-- Required `index.md` or supplemental notes
+- Required `readME.md` or supplemental notes
 - Type of supplemental artifact (concept, guide, checklist, etc.)
 
 ### Stage 5: Wiki Material Creation
@@ -152,8 +152,8 @@ When encountering URLs in content:
    - Limitations, error cases, security considerations
    - Links to related topics in existing knowledge base
 5. Integrate into wiki:
-   - Create/update `wiki/frameworks/[framework]/[slug]/index.md`
-   - Create/update `wiki/tools/[tool]/[slug]/index.md`
+   - Create/update `wiki/frameworks/[framework]/[slug]/readME.md`
+   - Create/update `wiki/tools/[tool]/[slug]/readME.md`
    - Maintain English technical terms where precision requires it
    - Add Russian explanations/context where beneficial
 6. Update knowledge graph:

@@ -118,6 +118,6 @@ tags:
 
 ## Связанные темы
 
-- [GitHub SpecKit: вайб-кодинг на основе спецификаций](../spec-kit/index.md)
-- [Vibe Coding](../../concepts/vibe-coding/index.md)
-- [AI-Assisted Development](../../concepts/ai-assisted-development/index.md)
+- [GitHub SpecKit: вайб-кодинг на основе спецификаций](../spec-kit/readME.md)
+- [Vibe Coding](../../concepts/vibe-coding/readME.md)
+- [AI-Assisted Development](../../concepts/ai-assisted-development/readME.md)

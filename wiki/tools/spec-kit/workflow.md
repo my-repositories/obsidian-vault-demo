@@ -389,6 +389,6 @@ Closes T005"
 
 ## Связанные темы
 
-- [GitHub SpecKit: основная статья](./index.md)
+- [GitHub SpecKit: основная статья](./readME.md)
 - [Команды SpecKit: полный справочник](./commands.md)
 - [Лучшие практики и типичные ошибки](./best-practices.md)

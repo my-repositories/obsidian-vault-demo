@@ -13,7 +13,7 @@
 
 ## Что сделано
 - Созданы страницы: 
-  - `wiki/tools/spec-kit/index.md` — основная статья о GitHub SpecKit
+  - `wiki/tools/spec-kit/readME.md` — основная статья о GitHub SpecKit
   - `wiki/tools/spec-kit/commands.md` — справочник по 8 командам SpecKit
   - `wiki/tools/spec-kit/workflow.md` — рекомендуемый рабочий процесс
   - `wiki/tools/spec-kit/best-practices.md` — лучшие практики и типичные ошибки
