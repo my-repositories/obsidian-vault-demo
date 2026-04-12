@@ -178,6 +178,11 @@
   },
   "active": "b0c41f67c353d1b0",
   "lastOpenFiles": [
+    "reports/processing-2026-04-12-beads.md",
+    "reports/maintenance-2026-04-12.md",
+    "maintenance-2026-04-12.md",
+    "processing-2026-04-12-beads.md",
+    "reports",
     "raw/_about.md",
     "raw/readME.md",
     "wiki/tools/spec-kit/readME.md",
@@ -208,11 +213,6 @@
     "wiki/frameworks/memory-management/beads/index.md",
     "frameworks/memory-management/beads.md",
     "AGENTS.md.tmp.15236.1776010609975",
-    "wiki/tools/github-speckit/index.md",
-    "frameworks/memory-management",
-    "tools/github-speckit.md",
-    "setup/6-true-final-final-final.md",
-    "CLAUDE.md",
-    "AGENTS.md"
+    "wiki/tools/github-speckit/index.md"
   ]
 }

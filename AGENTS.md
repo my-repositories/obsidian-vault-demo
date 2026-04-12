@@ -107,7 +107,10 @@ When selecting alternative approaches, prefer:
 
 ## Output Format After Processing
 
-Provide concise report:
+Save the processing report to `reports/processing-[YYYY-MM-DD]-[slug].md` using the format below:
+
+```md
+# Отчёт по обработке материала
 ## Что сделано
 - Сохранён оригинал: `...`
 - Обновлены/созданы файлы: `...`
@@ -120,6 +123,9 @@ Provide concise report:
 
 ## Почему так
 - Brief rationale for classification and structuring decisions
+```
+
+Also provide a concise summary in the chat response after processing.
 
 ## Special Handling Rules
 - Maintain rigorous separation between raw materials and processed wiki content
@@ -161,6 +167,7 @@ When encountering URLs in content:
    - Add metadata tags (technology, category, relevance)
    - Preserve citation of original source URL in footnote format
 7. Generate processing report:
+   - Save to `reports/processing-[YYYY-MM-DD]-[slug].md`
    - Document classification decision
    - Extract key insights in Russian
    - Note any translation adjustments made
@@ -219,6 +226,9 @@ This policy ensures the knowledge base remains tidy while preserving source mate
 6. **Generate report** → summary of changes made
 
 ## Automatic Maintenance Report Format
+
+Save the maintenance report to `reports/maintenance-[YYYY-MM-DD].md` using the format below:
+
 ```md
 # Отчёт по ревизии базы знаний
 ## Проверенные папки
@@ -226,8 +236,8 @@ This policy ensures the knowledge base remains tidy while preserving source mate
 - `Clippings/`
 ## Что найдено
 - Новых материалов: N
-- Необроботанных старых материалов: N
-- Частично оброботанных: N
+- Необработанных старых материалов: N
+- Частично обработанных: N
 - Дублей: N
 - Материалов, потребовавших обновления существующих страниц: N
 ## Что сделано
