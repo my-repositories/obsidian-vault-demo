@@ -133,3 +133,65 @@ Provide concise report:
 - Agents should reference this document before processing any new material
 - All subsequent processing steps must align with these instructions
 - Agents are expected to autonomously apply these rules without user intervention
+
+## Maintenance Mode (Automatic Updates)
+Every 2 days, perform full review cycle of:
+- `raw/` (articles, web clips, notes, transcripts, PDFs, prompts, drafts)
+- `Clippings/` (web clippings, quick saves, fragments)
+
+Process materials in priority order:
+1. New materials → unprocessed → partially processed → duplicates
+2. Update existing wiki pages if material extends current topics
+3. Create new pages if material represents independent concept
+4. Handle noise/archival only if needed for future reference
+
+## Automatic Processing Pipeline
+1. **Scan folders** → Identify new/unprocessed materials
+2. **Classify status** → new/unprocessed/partially_processed/duplicate/archive_only/update_needed
+3. **Extract knowledge** → core idea, key points, practical value, limitations
+4. **Integrate into wiki** → update existing or create new pages
+5. **Protect from loss** → especially short notes, fragments, drafts
+6. **Generate report** → summary of changes made
+
+## Automatic Maintenance Report Format
+```md
+# Отчёт по ревизии базы знаний
+## Проверенные папки
+- `raw/`
+- `Clippings/`
+## Что найдено
+- Новых материалов: N
+- Необроботанных старых материалов: N
+- Частично оброботанных: N
+- Дублей: N
+- Материалов, потребовавших обновления существующих страниц: N
+## Что сделано
+- Созданы страницы: `...`
+- Обновлены страницы: `...`
+- Созданы/обновлены тематические папки: `...`
+- Дубли объединены/игнорированы: `...`
+- Архивно сохранены без интеграции: `...`
+## Ключевые обновления базы
+- ...
+- ...
+- ...
+## Что было спасено от потери
+- ...
+- ...
+## Почему решения такие
+- ...
+- ...
+## Что стоит обработать следующим приоритетом
+- ...
+```
+
+## Automatic Agent Behavior Rules
+- Work autonomously without user intervention
+- Determine priorities independently
+- Make reasonable decisions about classification
+- Create new topics when genuinely new concepts appear
+- Update existing pages when material extends current topics
+- Merge duplicates
+- Russianify content while preserving technical terms
+- Build internal connections between notes
+- Only ask for clarification when work is genuinely blocked
