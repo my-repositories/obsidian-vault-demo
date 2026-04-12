@@ -13,6 +13,7 @@
   - [Команды SpecKit](./tools/spec-kit/commands.md) — полный справочник 8 команд
   - [Рабочий процесс](./tools/spec-kit/workflow.md) — пошаговый процесс от Constitution до Implement
   - [Лучшие практики](./tools/spec-kit/best-practices.md) — типичные ошибки и рекомендации
+- [Span<T> и Memory<T> в C#](./tools/span-memory-csharp/readME.md) — типобезопасная работа с памятью без аллокаций, ускорение ~7.5x
 
 ## 📚 Концепции
 _(пока нет материалов)_

@@ -178,6 +178,10 @@
   },
   "active": "b0c41f67c353d1b0",
   "lastOpenFiles": [
+    "reports/processing-2026-04-13-span-memory-csharp.md",
+    "wiki/tools/span-memory-csharp/readME.md",
+    "wiki/tools/span-memory-csharp",
+    "raw/articles/habr-span-memory-performance-708210.md",
     "reports/readME.md",
     "archive/readME.md",
     "Clippings/readME.md",
@@ -205,14 +209,10 @@
     "wiki/tools/spec-kit/best-practices.md",
     "wiki/tools/spec-kit/commands.md",
     "wiki/tools/spec-kit/index.md",
-    "Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
-    "archive/Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
     "archive/Clippings",
     "archive",
     "wiki/tools/spec-kit",
     "wiki/tools",
-    "AGENTS.md.tmp.15236.1776011787642",
-    "vibe-coding.md",
-    "AGENTS.md.tmp.15236.1776010609975"
+    "AGENTS.md.tmp.15236.1776011787642"
   ]
 }
