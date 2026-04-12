@@ -1,1 +1,6 @@
-{}
+{
+  "promptDelete": false,
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true
+}

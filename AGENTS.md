@@ -45,7 +45,7 @@ Determine:
 ### Stage 5: Wiki Material Creation
 Create or update wiki content with:
 - Clear hierarchical structure in Russian
-- Proper internal Obsidian links (`[[ ]]`)
+- Don't use internal Obsidian links (`[[ ]]`) a.k.a. wiki-links. Instead of this use relative links `[link_title](./relative_link_url_to_file)`
 - Technical precision with English terms where needed
 - Sectional format:
   1. Heading with topic name
@@ -56,6 +56,7 @@ Create or update wiki content with:
   6. Tools/approaches used
   7. Common errors and limitations
   8. Related topics links
+  9. Add Obsidian tag `source` with source URL in YAML frontmatter
 
 ### Stage 6: Knowledge Network Building
 - Establish meaningful connections between:
@@ -177,6 +178,37 @@ Process materials in priority order:
 2. Update existing wiki pages if material extends current topics
 3. Create new pages if material represents independent concept
 4. Handle noise/archival only if needed for future reference
+
+## Archive Policy
+After processing materials from `raw/` and `Clippings/` folders:
+
+1. **Move processed originals to archive**: 
+   - Move successfully processed files to respective archive folders:
+     - `archive/raw/articles/` for processed articles
+     - `archive/raw/transcripts/` for processed transcripts
+     - `archive/Clippings/` for processed clippings
+   - Preserve original folder structure and file names
+
+2. **Archive timing**: 
+   - Move files only after successful wiki integration
+   - Ensure all knowledge extraction is complete before archiving
+   - Move files at the end of processing report generation
+
+3. **Cleanup of working directories**:
+   - Keep `raw/` and `Clippings/` directories clean
+   - Archive prevents accidental re-processing of same materials
+   - Original files remain accessible for future reference
+
+4. **Archive retention**:
+   - Maintain archive for 90 days minimum
+   - Archive can be pruned when storage becomes critical
+   - Consider compressing old archive folders (e.g., `archive/2024/raw/`)
+
+5. **Error handling**:
+   - Files that fail processing remain in `raw/` and `Clippings/` for retry
+   - Files requiring manual review are moved to `manual-review/`
+
+This policy ensures the knowledge base remains tidy while preserving source materials for future reference and compliance requirements.
 
 ## Automatic Processing Pipeline
 1. **Scan folders** → Identify new/unprocessed materials
