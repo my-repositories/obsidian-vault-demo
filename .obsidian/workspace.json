@@ -178,6 +178,12 @@
   },
   "active": "b0c41f67c353d1b0",
   "lastOpenFiles": [
+    "archive/raw/articles/habr-solid-cheatsheet-935926.md",
+    "reports/processing-2026-04-13-solid-principles.md",
+    "wiki/principles/solid/readME.md",
+    "wiki/principles/solid",
+    "wiki/principles",
+    "raw/articles/habr-solid-cheatsheet-935926.md",
     "reports/processing-2026-04-13-span-memory-csharp.md",
     "wiki/tools/span-memory-csharp/readME.md",
     "wiki/tools/span-memory-csharp",
@@ -205,14 +211,8 @@
     "raw/articles/983498_habr_beads.md",
     "wiki/tools/beads/index.md",
     "wiki/tools/beads",
-    "wiki/tools/spec-kit/workflow.md",
-    "wiki/tools/spec-kit/best-practices.md",
-    "wiki/tools/spec-kit/commands.md",
-    "wiki/tools/spec-kit/index.md",
     "archive/Clippings",
     "archive",
-    "wiki/tools/spec-kit",
-    "wiki/tools",
-    "AGENTS.md.tmp.15236.1776011787642"
+    "wiki/tools/spec-kit"
   ]
 }
