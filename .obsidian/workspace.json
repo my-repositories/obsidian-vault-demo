@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/_about.md",
+                "file": "maintenance-report.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "_about"
+              "title": "maintenance-report"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "raw/_about.md",
+                "file": "maintenance-report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for _about"
+              "title": "Backlinks for maintenance-report"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "raw/_about.md",
+                "file": "maintenance-report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from _about"
+              "title": "Outgoing links from maintenance-report"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/_about.md",
+                "file": "maintenance-report.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _about"
+              "title": "Outline of maintenance-report"
             }
           }
         ]
@@ -185,29 +185,33 @@
   },
   "active": "b0c41f67c353d1b0",
   "lastOpenFiles": [
+    "processing-report-beads.md",
+    "archive/raw/articles/983498_habr_beads.md",
+    "archive/raw/articles",
+    "archive/raw",
+    "raw/articles/983498_habr_beads.md",
+    "wiki/tools/beads/index.md",
+    "wiki/tools/beads",
+    "wiki/tools/spec-kit/workflow.md",
+    "wiki/tools/spec-kit/best-practices.md",
+    "wiki/tools/spec-kit/commands.md",
+    "wiki/tools/spec-kit/index.md",
+    "raw/_about.md",
     "Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
     "archive/Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
     "archive/Clippings",
     "archive",
-    "wiki/tools/spec-kit/best-practices.md",
-    "wiki/tools/spec-kit/workflow.md",
-    "wiki/tools/spec-kit/commands.md",
-    "wiki/tools/spec-kit/index.md",
     "wiki/tools/spec-kit",
     "wiki/tools",
     "maintenance-report.md",
     "AGENTS.md.tmp.15236.1776011787642",
-    "raw/_about.md",
     "vibe-coding.md",
     "wiki/frameworks/memory-management/beads/index.md",
     "frameworks/memory-management/beads.md",
     "AGENTS.md.tmp.15236.1776010609975",
     "wiki/tools/github-speckit/index.md",
     "frameworks/memory-management",
-    "frameworks",
     "tools/github-speckit.md",
-    "wiki/tools/github-speckit",
-    "tools",
     "setup/6-true-final-final-final.md",
     "CLAUDE.md",
     "AGENTS.md",

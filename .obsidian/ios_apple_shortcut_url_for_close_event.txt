@@ -1,0 +1,1 @@
+ashell://x-callback-url/execute?command=./obsidian-vault-main/.obsidian/ios_sync_push.sh

@@ -129,5 +129,6 @@ uvx --from git+https://github.com/github/spec-kit.git specify init .
 - [Команды SpecKit: полный справочник](./commands.md)
 - [Рекомендуемый рабочий процесс](./workflow.md)
 - [Лучшие практики и типичные ошибки](./best-practices.md)
+- [Beads: Система памяти для кодинг-агентов](../beads/index.md)
 - [Vibe Coding](../../concepts/vibe-coding/index.md)
 - [AI-Assisted Development](../../concepts/ai-assisted-development/index.md)
