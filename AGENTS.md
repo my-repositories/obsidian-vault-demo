@@ -65,7 +65,49 @@ Create or update wiki content with:
   - Prompt patterns and workflows
   - Monetization strategies and product types
   - Niches and validation methods
-- Use Obsidian-style wiki links exclusively
+  - Don't use internal Obsidian links (`[[ ]]`) a.k.a. wiki-links. Instead of this use relative links `[link_title](./relative_link_url_to_file)`
+
+### Stage 7: Wiki Navigation Update (`wiki/readME.md`)
+After creating or updating any wiki pages, always update `wiki/readME.md` to reflect the current knowledge structure. This file serves as the **Map of Content (MOC)** — the primary entry point for navigating the entire wiki.
+
+**Update rules:**
+1. **New top-level category** — if a new folder appears under `wiki/` (e.g., `wiki/concepts/`, `wiki/frameworks/`), add a new section to `wiki/readME.md` with a heading and brief description.
+2. **New topic in existing category** — if a new subfolder is created under an existing category (e.g., `wiki/tools/new-tool/`), add a link to it under the corresponding section.
+3. **New supplemental files** — if new articles are added to an existing topic folder (e.g., `wiki/tools/spec-kit/commands.md`), list them as sub-links under the topic.
+4. **Format** — use a clean hierarchical Markdown list with relative links and short descriptions:
+   ```md
+   ### 📁 Category Name
+   - [Topic Name](./category/topic/readME.md) — краткое описание в 1 строку
+     - [Supplemental Article](./category/topic/article.md) — описание
+   ```
+5. **Emojis for visual scanning** — use consistent category emojis (e.g., 🔧 tools, 📚 concepts, 🌐 frameworks, 🧩 patterns, 📊 methodologies).
+6. **Keep descriptions concise** — 1 line per topic, no more than 15-20 words.
+7. **Maintain alphabetical or logical ordering** within each category for predictability.
+8. **Never remove entries** unless the corresponding wiki folder/file was actually deleted.
+
+**Example `wiki/readME.md` structure:**
+```md
+# Wiki
+Структурированные вики-страницы, созданные на основе материалов из /raw.
+Каждая тема — отдельная подпапка со своим `readME.md` и статьями.
+
+> Это Map of Content (MOC) — навигационный справочник по всей базе знаний.
+
+---
+
+## 🔧 Инструменты
+- [Beads: Система памяти для AI-агентов](./tools/beads/readME.md) — CLI-трекер задач, решающий проблему «деменции сессий»
+- [GitHub SpecKit: Spec-driven development](./tools/spec-kit/readME.md) — превращает хаотичные промпты в спецификации
+  - [Команды SpecKit](./tools/spec-kit/commands.md) — справочник 8 команд
+  - [Рабочий процесс](./tools/spec-kit/workflow.md) — пошаговый процесс от Constitution до Implement
+  - [Лучшие практики](./tools/spec-kit/best-practices.md) — типичные ошибки и как их избежать
+
+## 📚 Концепции
+- [Vibe Coding](./concepts/vibe-coding/readME.md) — описание (когда будет создано)
+
+## 🌐 Фреймворки
+- (пока пусто, ожидается появление)
+```
 
 ## Technical Requirements
 
@@ -185,6 +227,7 @@ Process materials in priority order:
 2. Update existing wiki pages if material extends current topics
 3. Create new pages if material represents independent concept
 4. Handle noise/archival only if needed for future reference
+5. **Always update `wiki/readME.md`** after any wiki changes (Stage 7)
 
 ## Archive Policy
 After processing materials from `raw/` and `Clippings/` folders:
@@ -222,8 +265,9 @@ This policy ensures the knowledge base remains tidy while preserving source mate
 2. **Classify status** → new/unprocessed/partially_processed/duplicate/archive_only/update_needed
 3. **Extract knowledge** → core idea, key points, practical value, limitations
 4. **Integrate into wiki** → update existing or create new pages
-5. **Protect from loss** → especially short notes, fragments, drafts
-6. **Generate report** → summary of changes made
+5. **Update navigation** → refresh `wiki/readME.md` to reflect new/changed pages (Stage 7)
+6. **Protect from loss** → especially short notes, fragments, drafts
+7. **Generate report** → save to `reports/` and summarize changes
 
 ## Automatic Maintenance Report Format
 
