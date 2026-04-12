@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:habr.com)",
+      "Bash(curl:*)"
+    ]
+  }
+}

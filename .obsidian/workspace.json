@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "541bd3989de36b15",
+        "id": "74a6126ee3149f3e",
         "type": "tabs",
         "children": [
           {
-            "id": "37a46176202f296a",
+            "id": "b61a9134fcb94791",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "GitHub SpecKit вайб-кодинг на основе спецификаций"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for GitHub SpecKit вайб-кодинг на основе спецификаций"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from GitHub SpecKit вайб-кодинг на основе спецификаций"
+              "title": "Outgoing links"
             }
           },
           {
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GitHub SpecKit вайб-кодинг на основе спецификаций"
+              "title": "Outline"
             }
           }
         ]
@@ -183,9 +176,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "37a46176202f296a",
+  "active": "b61a9134fcb94791",
   "lastOpenFiles": [
+    "raw/articles/983498_habr_beads.html",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "QWEN.md",
     "Clippings/GitHub SpecKit вайб-кодинг на основе спецификаций.md",
+    "raw/articles",
     "Clippings"
   ]
 }
