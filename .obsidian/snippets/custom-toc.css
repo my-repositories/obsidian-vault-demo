@@ -1,0 +1,67 @@
+/* Контейнер оглавления */
+.custom-toc-active .toc-details {
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    margin: 1.5em 0;
+    transition: all 0.2s ease;
+}
+
+/* Шапка (Заголовок) */
+.custom-toc-active .toc-summary {
+    padding: 10px 15px;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 600;
+    color: var(--interactive-accent);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    user-select: none;
+}
+
+/* Кастомная стрелочка */
+.custom-toc-active .toc-summary::-webkit-details-marker { display: none; }
+.custom-toc-active .toc-summary::before {
+    content: "▶";
+    font-size: 0.7em;
+    transition: transform 0.2s;
+}
+.custom-toc-active .toc-details[open] .toc-summary::before {
+    transform: rotate(90deg);
+}
+
+/* Область со списком */
+.custom-toc-active .toc-content {
+    padding: 5px 20px 15px 20px;
+    border-top: 1px solid var(--background-modifier-border);
+}
+
+/* Строка заголовка */
+.custom-toc-active .toc-item {
+    margin: 6px 0;
+    display: flex;
+    align-items: baseline;
+    font-size: 0.95em;
+}
+
+/* Номер (1.1.) */
+.custom-toc-active .toc-num {
+    font-family: var(--font-monospace);
+    font-size: 0.85em;
+    color: var(--text-muted);
+    margin-right: 12px;
+    min-width: 28px;
+    text-align: right;
+}
+
+/* Ссылка */
+.custom-toc-active .toc-lnk {
+    text-decoration: none;
+    color: var(--text-normal);
+}
+
+.custom-toc-active .toc-lnk:hover {
+    color: var(--interactive-accent);
+    text-decoration: underline;
+}
