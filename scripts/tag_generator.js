@@ -1,4 +1,4 @@
-const UTILS_PATH = "Resources/Obsidian/scripts/utils.js";
+const UTILS_PATH = "Scripts/utils.js";
 const UTILS_ABSOLUTE_PATH = app.vault.adapter.getFullPath(UTILS_PATH);
 delete require.cache[require.resolve(UTILS_ABSOLUTE_PATH)];
 const { getVaultSearchUrl, getOrCreateCache } = require(UTILS_ABSOLUTE_PATH);
@@ -81,33 +81,27 @@ class TagGenerator {
     }
 
     buildRows(allFiles) {
-        const tagSet = new Set();
+        const tagCounts = {};
 
         allFiles.forEach(f => {
             if (f.tags && Array.isArray(f.tags)) {
                 f.tags.forEach(t => {
                     if (t.startsWith(this.config.tagPrefix)) {
-                        tagSet.add(t);
+                        tagCounts[t] = (tagCounts[t] || 0) + 1;
                     }
                 });
             }
         });
 
-        const sortedTags = [...tagSet].sort();
-        const rows = [];
-
-        for (const tag of sortedTags) {
-            const taggedFiles = allFiles.filter(p => p.tags && p.tags.includes(tag));
-            const count = taggedFiles.length;
+        return Object.keys(tagCounts).sort().map(tag => {
+            const count = tagCounts[tag];
             const icon = this.ICON_MAP[tag] || "❓";
             const searchUrl = getVaultSearchUrl(tag);
             const displayName = tag.replace(this.config.tagPrefix, "");
             const linkHtml = `<a href="${searchUrl}">${icon} ${displayName}</a>`;
 
-            rows.push([linkHtml, count || "—"]);
-        }
-
-        return rows;
+            return [linkHtml, count || "—"];
+        });
     }
 
     async render() {
@@ -118,8 +112,7 @@ class TagGenerator {
         }
 
         const searchFolder = this.config.folder || currentFile.file.folder;
-
-        const cached = await getOrCreateCache(`autotag/${searchFolder}_${this.config.tagPrefix}_${this.config.recursive}`, this.config.cacheDuration, async () => {
+        const cached = await getOrCreateCache(`cache_tag/${searchFolder}_${this.config.tagPrefix}_${this.config.recursive}`, this.config.cacheDuration, async () => {
             const allPages = this.dv.pages(`"${searchFolder}"`);
             const allFiles = this.config.recursive
                 ? allPages
