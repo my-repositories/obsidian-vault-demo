@@ -1,4 +1,4 @@
-const UTILS_PATH = "Resources/Obsidian/scripts/utils.js";
+const UTILS_PATH = "Scripts/utils.js";
 const UTILS_ABSOLUTE_PATH = app.vault.adapter.getFullPath(UTILS_PATH);
 delete require.cache[require.resolve(UTILS_ABSOLUTE_PATH)];
 const { formatDate, getVaultSearchUrl, getOrCreateCache } = require(UTILS_ABSOLUTE_PATH);
@@ -97,7 +97,7 @@ class MOCGenerator {
             currentPath = currentFile.file.folder;
         }
 
-        const cached = await getOrCreateCache(`moc/${currentPath}`, this.config.cacheDuration, async () => {
+        const cached = await getOrCreateCache(`cache_moc/${currentPath}`, this.config.cacheDuration, async () => {
             const folderData = await this.app.vault.adapter.list(currentPath);
 
             const subFolders = (folderData.folders || [])

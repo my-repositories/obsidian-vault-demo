@@ -8,30 +8,12 @@ class TOCGenerator {
             numbered: params.numbered !== true,
             title: params.title || "Содержание",
             collapsed: params.collapsed ?? false,
-            className: "custom-toc-active",
             exclude: params.exclude || "",
             ...params
         };
 
         this.counters = Array(7).fill(0);
         this.prevLevel = 0;
-    }
-
-    async ensureYamlClass(file) {
-        const cache = this.app.metadataCache.getFileCache(file);
-        const currentClasses = cache?.frontmatter?.cssclasses || [];
-        const classesArray = Array.isArray(currentClasses) ? currentClasses : currentClasses.split(' ').filter(c => c);
-
-        if (!classesArray.includes(this.config.className)) {
-            await this.app.fileManager.processFrontMatter(file, (fm) => {
-                let classes = fm.cssclasses || [];
-                if (typeof classes === 'string') classes = classes.split(' ').filter(c => c);
-                if (!classes.includes(this.config.className)) {
-                    classes.push(this.config.className);
-                    fm.cssclasses = classes;
-                }
-            });
-        }
     }
 
     generateHash(headings) {
@@ -78,7 +60,10 @@ class TOCGenerator {
         if (!container) {
             container = this.dv.el("details", "", { cls: "toc-details", attr: { id: containerId } });
         } else {
-            container.innerHTML = '';
+            // Клонируем контейнер для удаления всех слушателей событий
+            const newContainer = container.cloneNode(false); // shallow clone без детей
+            container.parentNode.replaceChild(newContainer, container);
+            container = newContainer;
         }
 
         container.dataset.hash = this.generateHash(headings);
@@ -124,7 +109,6 @@ class TOCGenerator {
 
         if (headings.length === 0) return;
 
-        await this.ensureYamlClass(file);
         this.renderContent(headings, filePath);
     }
 }
